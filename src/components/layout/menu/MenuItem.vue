@@ -17,8 +17,8 @@
 </template>
 
 <script setup lang="ts">
-import { useMenu } from './useMenu'
-import IconPark from '../../common/IconPark.vue'
+import { useMenu } from '@/components/layout/menu/useMenu'
+import IconPark from '@/components/common/IconPark.vue'
 import { ElScrollbar } from 'element-plus/lib/components/index.js'
 
 const { menus, current, click } = useMenu()
